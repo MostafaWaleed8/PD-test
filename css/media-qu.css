@@ -88,6 +88,10 @@
     flex-direction: column;
   }
 
+  .logo {
+    margin: 10px 0;
+  }
+
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
