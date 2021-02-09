@@ -88,13 +88,9 @@
     flex-direction: column;
   }
 
-  .logo {
-    height: 30vw;
-    width: 30vw;
-  }
-
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
   }
 }

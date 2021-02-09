@@ -104,9 +104,14 @@ input {
   overflow-y: hidden;
 }
 
+.logo-link {
+  padding: 0 !important;
+  border-bottom: none !important;
+}
+
 .logo {
-  width: 10vw;
-  height: 10vw;
+  width: 70px;
+  height: 50px;
 }
 
 .navbar ul {
@@ -161,6 +166,10 @@ input {
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
+}
+
+.showcase-form h2 {
+  margin-bottom: 2px;
 }
 
 .showcase-form .form-control {
@@ -245,10 +254,11 @@ input {
   height: auto;
 }
 
-.plans .card h1 {
+.plans .card .plan-heading {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
 }
 .plans .card ul {
   margin: 20px 0;
