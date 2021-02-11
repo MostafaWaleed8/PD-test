@@ -1,6 +1,10 @@
 /* Tablets and smaller */
 
 @media (max-width: 768px) {
+  .logo {
+    width: 20vw;
+  }
+
   .grid,
   .showcase .grid,
   .stats .grid,
@@ -77,6 +81,14 @@
   }
 }
 
+/* Ipad pro */
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 25vw;
+  }
+}
+
 /* Mobile */
 
 @media (max-width: 600px) {
@@ -87,9 +99,8 @@
   .navbar .flex {
     flex-direction: column;
   }
-
   .logo {
-    margin: 10px 0;
+    width: 40vw;
   }
 
   .navbar ul {
