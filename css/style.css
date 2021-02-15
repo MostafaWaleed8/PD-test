@@ -451,6 +451,8 @@ input[type="submit"] {
   margin: 0 auto;
   width: 30%;
   border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 }
 
 /* log in */
