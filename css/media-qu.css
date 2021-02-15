@@ -99,6 +99,11 @@
 
   .sign-up .sign-up-card-holder h4.head-text {
     font-size: 1rem;
+    text-align: left;
+  }
+
+  .sign-up .sign-up-card-holder .head-text a {
+    width: 100%;
   }
 
   .selcet-country {
@@ -179,8 +184,15 @@
   }
 
   .navbar ul {
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    height: 50px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+
+  .sign-up .sign-up-card-holder h4.head-text:first-of-type {
+    width: 50%;
   }
 }
