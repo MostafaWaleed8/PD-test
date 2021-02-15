@@ -447,7 +447,7 @@ input:focus {
   margin-bottom: 2rem;
 }
 
-input[type="submit"] {
+.sign-up input[type="submit"] {
   margin: 0 auto;
   width: 30%;
   border: 1px solid var(--primary-color);
